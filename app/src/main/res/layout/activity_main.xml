@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff" >
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="#9409"
+        android:padding="10dp"
+        android:text="打开辅助服务"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="        说明：可以支持抢QQ拼手气红包，普通红包，口令红包，现在再也不怕20年单身手速的人跟我抢红包了！"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp"
+        android:text="        注意：如果没有设置屏幕锁定方式，支持待机自动抢红包，如果设置了锁定方式，请保持屏幕常亮。目前暂不支持在聊天记录列表界面抢红包。"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+</RelativeLayout>
